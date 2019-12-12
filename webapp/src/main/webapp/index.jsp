@@ -3,4 +3,4 @@
 <h2> Welcome to Small Maven project!!! </h2>
 
 
-<h3> Thanks you Mani Sir :-) </h3>
+<h3> Thanks you Mani Sir :-). </h3>
