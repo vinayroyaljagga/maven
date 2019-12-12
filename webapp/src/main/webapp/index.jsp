@@ -1,3 +1,5 @@
-<h1> Hello, Welcome to Small Maven project!!! </h1>
-<h2> Deploying on Kubernetes </h2>
-<h3> One last test </h3>
+<h1> Hello, </h1>
+<h2> Welcome to Small Maven project!!! </h2>
+
+
+<h3> Thanks you Mani Sir :-) </h3>
