@@ -24,9 +24,14 @@ steps:
   inputs:
     Contents: '**/*.war'
     TargetFolder: '$(build.artifactstagingdirectory)'
-- task: CopyPublishBuildArtifacts@1
+# - task: CopyPublishBuildArtifacts@1
+#   inputs:
+#     CopyRoot: '$(Build.SourcesDirectory)'
+#     Contents: '**/*.war'
+#     ArtifactName: 'webapp'
+#     ArtifactType: 'Container'
+- task: PublishBuildArtifacts@1
   inputs:
-    CopyRoot: '$(Build.SourcesDirectory)'
-    Contents: '**/*.war'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'webapp'
-    ArtifactType: 'Container'
+    publishLocation: 'Container'
